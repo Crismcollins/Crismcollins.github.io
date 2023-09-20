@@ -1,0 +1,106 @@
+{
+    "en": {
+        "topbar": {
+            "home": "Home",
+            "about": "About",
+            "exp": "Experience",
+            "proj": "Projects"
+        },
+        "home": {
+            "jobtitle": "Game developer and front end"
+        },
+        "about": {
+            "about-txt": "About me",
+            "card-title": "Computer engineer",
+            "card-p": "I love front-end development of videogames, web and testing. Being a perfectionist helps me to improve my work more and more and ensure the best possible product.",
+            "card-p2": "I am proactive, autonomous, creative, responsible, I like to organize my work and I am constantly learning new things to improve my skills.",
+            "card-p3": "I've worked as front-end developer as a salesperson and game developer as a freelancer and self-taught, developing web pages, browser and mobile games that consume APIs.<br> As i developed my own games, i learned how to design UX/UI, design sounds/music, do manual testing, game design and plan time on my own.",
+            "download-cv": "Download CV",
+            "download-cv-en": "Download Resume"
+        },
+        "skills": {
+            "skill1": "Responsible",
+            "skill2": "Creative",
+            "skill3": "Leadership",
+            "skill4": "Communication",
+            "skill5": "Retailer",
+            "skill6": "Organized",
+            "skill7": "Flexible",
+            "skill8": "Critical thinking",
+            "skill9": "Problem solving"
+        },
+        "exp": {
+            "exp-txt": "Experience",
+            "exp2-txt": "Education",
+            "tlted": "Computer engineer",
+            "ed-txt1": "Graduated as computer engineer, development of thesis 'Snake&Blocks'",
+            "tlted2": "English course B1+",
+            "exp-txt2": "Online b1+ English course approved and validated by Eclass.",
+            "exp1-txt": "Job",
+            "ind": "Independent",
+            "job-txt": "Development of web and mobile video games. Programming and designing solutions required by customers around the world.",
+            "job2-txt": "Development of web games and webpages, collaborating with different areas of the company to define requirements, testing, design solutions and solve problems. Exercising the last 5 months as front-end technical leader."
+        },
+        "projects": {
+            "prj-txt": "Projects",
+            "sbdesc": "Play Snake and put together a puzzle at the same time",
+            "spdesc": "Game to learn to manage inventories, you will be in charge of a beverage factory.",
+            "rpsdesc": "This is the real duel of your life!",
+            "mrbropodesc": "Music bot for discord",
+            "pfdesc": "Win and level up!",
+            "more": "Learn more"
+        }
+    },
+    "es": {
+        "topbar": {
+            "home": "Inicio",
+            "about": "Sobre mi",
+            "exp": "Experiencia",
+            "proj": "Proyectos"
+        },
+        "home": {
+            "jobtitle": "Desarrollador de videojuegos y front-end"
+        },
+        "about": {
+            "about-txt": "Sobre mi",
+            "card-title": "Ingeniero informático",
+            "card-p": "Me encanta el desarrollo front-end de videojuegos, web y testing. Al ser perfeccionista me ayuda a mejorar cada vez más mi trabajo y asegurar el mejor producto posible.",
+            "card-p2": "Soy proactivo, autónomo, creativo, responsable, me gusta organizar mi trabajo y sigo aprendiendo cosas nuevas constantemente para mejorar mis habilidades.",
+            "card-p3": "He trabajado como desarrollador front-end como dependiente y desarrollador de juegos como freelance y autodidacta, desarrollando páginas web, navegadores y juegos móviles que consumen APIs.<br>A medida que desarrollaba mis propios juegos, aprendí diseño de UX/UI, diseño de sonido/música, pruebas manuales, diseño de juegos y planificación del tiempo por mi cuenta.",
+            "download-cv": "Descargar CV"
+        },
+        "skills": {
+            "skill1": "Responsable",
+            "skill2": "Creativo",
+            "skill3": "Liderazgo",
+            "skill4": "Comunicación",
+            "skill5": "Detallista",
+            "skill6": "Organizado",
+            "skill7": "Flexible",
+            "skill8": "Pensamiento crítico",
+            "skill9": "Solución de problemas"
+        },
+        "exp": {
+            "exp-txt": "Experiencia",
+            "exp2-txt": "Educación",
+            "tlted": "Ingeniería informática",
+            "ed-txt1": "Titulado de ingeniero informático, desarrollo de tesis 'Snake&Blocks'",
+            "tlted2": "Curso de ingles B1+",
+            "exp-txt2": "Curso online de inglés b1+ aprobado y validado por Eclass.",
+            "exp1-txt": "Trabajo",
+            "ind": "Independiente",
+            "job-txt": "Desarrollo de videojuegos web y mobile. Programando y diseñando soluciones requeridas por clientes de todo el mundo.",
+            "job2-txt": "Desarrollo de videojuegos web y webpages, colaborando con distintas áreas de la empresa para definir requerimientos, testing, diseñar soluciones y resolución de problemas. Ejerciendo los últimos 5 meses como líder técnico front-end."
+
+        },
+        "projects": {
+            "prj-txt": "Proyectos",
+            "sbdesc": "¡Juega Snake y arma un puzzle al mismo tiempo!",
+            "spdesc": "Aprende a gestionar inventarios, seras el encargado de una fábrica de bebidas.",
+            "rpsdesc": "¡Este es el real duelo de tu vida!",
+            "mrbropodesc": "Bot de musica para discord",
+            "pfdesc": "¡Gana y sube de nivel!",
+            "more": "Saber mas"
+        }
+    }
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles/index.css">
+    <link rel="stylesheet" href="Styles/switch.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <title>crismcollins</title>
+</head>
+    <header>
+          <nav class="navbar navbar-expand-lg navbar-dark header fixed-top" id="topbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Crismcollins</a>
+            <button type="button" class="btn btn-lg btn-toggle mx-4 mx-lg-5" data-toggle="button" aria-pressed="false" autocomplete="off" id ="switch">
+                <div class="handle"></div>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <a class="nav-link" href="#home" id="nav-home">Home</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <a class="nav-link" href="#about" id="nav-about">Sobre mi</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <a class="nav-link" href="#exp" id="nav-exp">Experiencia</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <a class="nav-link" href="#projects" id="nav-proj">Proyectos</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <body data-spy="scroll" data-target="#topbar">
+        <div class="container-fluid">
+            <div class="row home" id="home">
+                <div class="col-12 text-center my-auto">
+                    <div class="txt-home">
+                        <h1 class="mt-2 tlt-home">Cristóbal Molina Collins</h1>
+                        <h4 class="mt-2 tlt2-home" id="jobtitle">Game developer and front end</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid pt-5 content-me">
+            <div class="container  pb-5">
+                <div class="about pt-5" id="about">
+                    <h1 class="text-center text-md-left tlt-section" id="about-txt">About me</h1>
+
+                    <div class="msge-me mt-3">
+                        <div class="row">
+                            <div class="col-md-auto text-center text-lg-left">
+                                <img class="me" src="Images/me.jpg" height="256" width="200">
+                                <div class="rrss text-center">
+                                    <a class="mail px-1 mr-1" href="mailto:elcorreoquequieres@correo.com"><img src="Images/gmail.png" height="64" width="64"></a>
+                                    <a class="mail px-1 ml-1" href="https://www.linkedin.com/in/cristobal-alejandro-molina-collins-b595a8140/"><img src="Images/linkedin.png" height="64" width="64"></a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-8 mt-4 mt-md-0 pl-4">
+                                <div class="balloon w-100 shadow p-4">
+                                    <div class="position-absolute triangle triangle-position d-none d-md-block"></div>
+                                    <h5 class="card-title" id="card-title">Ingeniero informático</h5>
+                                    <p id="card-p">Me encanta el desarrollo front-end de videojuegos, web y testing. Al ser perfeccionista me ayuda a mejorar cada vez más mi trabajo y asegurar
+                                        el mejor producto posible.</p>
+                                    <p id="card-p2">Soy proactivo, autónomo, creativo, responsable, me gusta organizar mi trabajo y sigo aprendiendo cosas nuevas constantemente para mejorar mis habilidades.</p>
+                                    <p id="card-p3">Gracias a que me gusta compartir con otras personas, se me facilita la comunicación con el resto, intentando ser lo mas asertivo posible.</p>
+                                    <div class="mt-5 mb-4 text-center">
+                                        <a class="btn-success py-3 px-4 border rounded-pill d-block d-lg-inline d-none" href="../Documents/Cristóbal Molina CV.pdf" id="download-cv" download>Descargar CV</a>
+                                        <a class="btn-success py-3 px-4 border rounded-pill d-block d-lg-inline" href="../Documents/Cristobal Resume.pdf" id="download-cv-en" download>Descargar CV</a>
+                                    </div>
+                                    
+                                    <div class="card-footer bg-transparent">
+                                        <div class="row m-0 p-0 justify-content-center text-center">
+                                            <h5 class="col-12 tlt-section">Skills</h5>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center">Unity 2D</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center">C#</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center">HTML5</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center">CSS3</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center">Bootstrap 4</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center">JavaScript</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center">PhaserJS</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center">MeteorJS</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center">JQuery</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center">Git</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center">Illustrator</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center" id="skill1">Responsible</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center" id="skill2">Creative</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center" id="skill3">Leadership</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center" id="skill4">Communication</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center" id="skill5">Retailer</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center" id="skill6">Organized</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center" id="skill7">Flexible</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center" id="skill8">Critical thinking</div>
+                                            <div class="col-auto chip py-1 px-2 mx-1 mt-1 text-center" id="skill9">Problem solving</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience mt-5 pt-5" id="exp">
+                    <h1 class="text-center text-md-left tlt-section" id="exp-txt">Experiencia</h1>
+                    <div class="row paths">
+                        <div class="col-12 col-md-6">
+                            <h2 class="text-center tlt-section" id="exp2-txt">Educación</h2>
+                            <div class="balloon p-4 w-100 pathExp shadow">
+                                <div class="row mt-3">
+                                    <div class="col-auto"><span class="material-symbols-outlined">school</span><div class="vertical-line"></div></div>
+                                    <div class="col">
+                                        <p class="tlt-txt mb-0"><b id="tlted">Ingeniería informática</b></p>
+                                        <p class="tlt-txt mb-1">INACAP</p>
+                                        <p class="date-txt mb-1"><i>03/2015 - 12/2018</i></p>
+                                        <p class="exp-txt" id="ed-txt1">Titulado de ingeniero informático, desarrollo de tesis "Snake&Blocks"</p>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-auto"><span class="material-symbols-outlined">school</span><div class="vertical-line"></div></div>
+                                    <div class="col">
+                                        <p class="tlt-txt mb-0"><b id="tlted2">Curso de ingles B1+</b></p>
+                                        <p class="tlt-txt mb-1">Eclass</p>
+                                        <p class="date-txt mb-1"><i>12/2020 - 03/2021</i></p>
+                                        <p class="exp-txt" id="exp-txt2">Curso online de inglés b1+ aprobado y validado por Eclass.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="col-12 col-md-6 mt-5 mt-md-0">
+                            <h2 class="text-center tlt-section" id="exp1-txt">Trabajo</h2>
+                            <div class="balloon p-4 w-100 pathExp shadow">
+                                <div class="row mt-3">
+                                    <div class="col-auto"><span class="material-symbols-outlined">work</span><div class="vertical-line"></div></div>
+                                    <div class="col">
+                                        <p class="tlt-txt mb-0"><b id="tltjob">Freelance Game developer</b></p>
+                                        <p class="tlt-txt mb-1" id="ind">Independiente</p>
+                                        <p class="date-txt mb-1"><i>04/2023 - presente</i></p>
+                                        <p class="exp-txt mb-1" id="job-txt">Desarrollo de videojuegos web y mobile. Programando y diseñando soluciones requeridas por clientes de todo el mundo</p>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-auto"><span class="material-symbols-outlined">work</span><div class="vertical-line"></div></div>
+                                    <div class="col">
+                                        <p class="tlt-txt mb-0"><b>Front-end Developer</b></p>
+                                        <p class="tlt-txt mb-1">Gamelab Education</p>
+                                        <p class="date-txt mb-1"><i>03/2021 - 10/2022</i></p>
+                                        <p class="exp-txt" id="job2-txt">Desarrollo de videojuegos web y webpages, colaborando con distintas áreas de la empresa para definir requerimientos, testing, diseñar soluciones y resolver problemas.</p>
+                                        <!-- <p class="date-txt mb-1"><i>Contacto: Felipe Walker, CEO de Gamelab Education.</i></p>
+                                        <p class="date-txt mb-1"><i>+56985270398</i></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="projects mt-5 pt-5" id="projects">
+                    <h1 class="text-center text-md-left tlt-section" id="prj-txt">Proyectos</h1>
+                    <div class="row mt-0">
+                        <div class="col-12 col-md-6 col-xl-4 text-center mt-5 mx-auto">
+                            <div><a href="https://crismcollins.itch.io/snakeblocks" target="_blank"><img class="img-fluid" src="Images/snakeblocks.png"></a></div>
+                            <h4 class="mt-3"><b>Snake & Blocks</b></h4>
+                            <p class="txt-game mx-auto" id="sbdesc">¡Juega Snake y arma un puzzle al mismo tiempo!</p>
+                            <div class="mt-4"><a class="txt-btn-games btn-success p-3 border rounded-pill mt-3" href="https://crismcollins.itch.io/snakeblocks" target="_blank">Saber mas</a></div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4 text-center mt-5 mx-auto">
+                            <div><a href="https://crismcollins.itch.io/sodapop-game" target="_blank"><img class="img-fluid" src="Images/sp.png"></a></div>
+                            <h4 class="mt-3"><b>Sodapop Game</b></h4>
+                            <p class="txt-game mx-auto" id="spdesc">Juego para aprender a gestionar inventarios, seras el encargado de una fábrica de bebidas.</p>
+                            <div class="mt-4"><a class="txt-btn-games btn-success p-3 border rounded-pill mt-3" href="https://crismcollins.itch.io/sodapop-game" target="_blank">Saber mas</a></div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4 text-center mt-5 mx-auto">
+                            <div><a href="https://crismcollins.itch.io/rock-paper-scissor-duel" target="_blank"><img class="img-fluid" src="Images/rspduel.png"></a></div>
+                            <h4 class="mt-3"><b>Rock Paper & Scissor Duel!</b></h4>
+                            <p class="txt-game mx-auto" id="rpsdesc">¡Este es el real duelo de tu vida!</p>
+                            <div class="mt-4"><a class="txt-btn-games btn-success p-3 border rounded-pill mt-3" href="https://crismcollins.itch.io/rock-paper-scissor-duel" target="_blank">Saber mas</a></div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4 text-center mt-5 mx-auto">
+                            <div><a href="https://crismcollins.itch.io/mr-bropo" target="_blank"><img class="img-fluid rounded-pill" src="Images/mrbropo.png"></a></div>
+                            <h4 class="mt-3"><b>Mr. bropo</b></h4>
+                            <p class="txt-game mx-auto" id="mrbropodesc">Bot de musica para discord</p>
+                            <div class="mt-4"><a class="txt-btn-games btn-success p-3 border rounded-pill mt-3" href="https://crismcollins.itch.io/mr-bropo" target="_blank">Saber mas</a></div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4 text-center mt-5 mx-auto">
+                            <div><a href="https://crismcollins.itch.io/power-fighters" target="_blank"><img class="img-fluid rounded-pill" src="Images/powerfigthers.png"></a></div>
+                            <h4 class="mt-3"><b>Power Fighters</b></h4>
+                            <p class="txt-game mx-auto" id="pfdesc">¡Gana y sube de nivel!</p>
+                            <div class="mt-4"><a class="txt-btn-games btn-success p-3 border rounded-pill mt-3" href="https://crismcollins.itch.io/power-fighters" target="_blank">Saber mas</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" type="module" src="Scripts/index.js"></script>
+    </body>
+</html>

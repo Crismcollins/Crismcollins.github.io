@@ -1,0 +1,134 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.me {
+    border-radius: 50%;
+}
+.txt-home{
+    color: white;
+}
+.tlt-home{
+    font-size: 7vw;
+}
+.tlt2-home{
+    font-size: 3vw;
+}
+.header{
+    background-color: #074E85;
+}
+
+.home{
+    height: 100vh;
+    background-image: url("../Images/background.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mail{
+    color: chocolate;
+}
+
+.content-me{
+    background-color: lavender;
+}
+
+.card-footer{
+    min-width: 130px;
+    border-top: 1px solid #074E85;
+}
+
+.chip{
+    background-color: #074E85;
+    color: white;
+    width: fit-content;
+    border-radius: 32px;
+}
+
+.btn-success:hover {
+    text-decoration: none;
+}
+
+.balloon{
+    background-color: white;
+    border-radius: 32px;
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 12px 27.7px 17px;
+    border-color: transparent transparent ffffff transparent;
+    transform: rotate(45deg);
+ }
+
+ .triangle-position{
+    left: 10px;
+    top: 110px;
+ }
+
+ .paths{
+    margin-top: 64px;
+ }
+
+ .date-txt{
+    font-size: 0.9rem;
+    color: grey;
+ }
+
+ .tlt-txt{
+    font-size: 1.2rem;
+    color: black;
+ }
+
+ .exp-txt{
+    font-size: 1rem;
+    color: black;
+ }
+
+ .vertical-line{
+    border-left: 2px solid #074E85;
+    height: 85%;
+    position:absolute;
+    left: 50%;
+ }
+
+ .txt-btn-games{
+    font-size: 1.5rem;
+ }
+
+ .material-symbols-outlined{
+    color: #074E85;
+ }
+
+ .tlt-section{
+    color: #074E85;
+ }
+ 
+ @media only screen and (max-width: 992px){
+    .txt-game{
+        width: 100%;
+     }
+ }
+
+ @media only screen and (min-width: 992px){
+    .card-body{
+        min-height: 250px;
+    }  
+    .txt-game{
+        min-height: 48px;
+        
+     }
+ }
+
+ @media only screen and (min-width: 1200px){
+    .card-body{
+        min-height: 200px;
+    }  
+ }
