@@ -49,6 +49,10 @@ body {
     border-radius: 32px;
 }
 
+.chip.skill {
+    background-color: #28a745
+}
+
 .btn-success:hover {
     text-decoration: none;
 }

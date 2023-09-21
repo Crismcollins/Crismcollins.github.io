@@ -12,9 +12,9 @@
         "about": {
             "about-txt": "About me",
             "card-title": "Computer engineer",
-            "card-p": "I love front-end development of videogames, web and testing. Being a perfectionist helps me to improve my work more and more and ensure the best possible product.",
+            "card-p": "I love mobile and video game development. Being a perfectionist helps me continuously improve my work and ensure the best possible product.",
             "card-p2": "I am proactive, autonomous, creative, responsible, I like to organize my work and I am constantly learning new things to improve my skills.",
-            "card-p3": "I've worked as front-end developer as a salesperson and game developer as a freelancer and self-taught, developing web pages, browser and mobile games that consume APIs.<br> As i developed my own games, i learned how to design UX/UI, design sounds/music, do manual testing, game design and plan time on my own.",
+            "card-p3": "I have worked as a front-end developer as an employee and as a freelance and self-taught mobile developer, creating websites, and mobile apps that consume APIs.<br> As I developed my own games, I learned UX/UI design, sound/music design, manual testing, game design, and time planning on my own.",
             "download-cv": "Download CV",
             "download-cv-en": "Download Resume"
         },
@@ -38,7 +38,7 @@
             "exp-txt2": "Online b1+ English course approved and validated by Eclass.",
             "exp1-txt": "Job",
             "ind": "Independent",
-            "job-txt": "Development of web and mobile video games. Programming and designing solutions required by customers around the world.",
+            "job-txt": "Development of mobile applications and video games both personally and as a freelancer, creating applications from scratch on a personal basis and upon client request. Working from gathering requirements to the transition to production.",
             "job2-txt": "Development of web games and webpages, collaborating with different areas of the company to define requirements, testing, design solutions and solve problems. Exercising the last 5 months as front-end technical leader."
         },
         "projects": {
@@ -64,9 +64,9 @@
         "about": {
             "about-txt": "Sobre mi",
             "card-title": "Ingeniero informático",
-            "card-p": "Me encanta el desarrollo front-end de videojuegos, web y testing. Al ser perfeccionista me ayuda a mejorar cada vez más mi trabajo y asegurar el mejor producto posible.",
+            "card-p": "Me encanta el desarrollo de aplicaciones móviles y de videojuegos. Al ser perfeccionista me ayuda a mejorar cada vez más mi trabajo y asegurar el mejor producto posible.",
             "card-p2": "Soy proactivo, autónomo, creativo, responsable, me gusta organizar mi trabajo y sigo aprendiendo cosas nuevas constantemente para mejorar mis habilidades.",
-            "card-p3": "He trabajado como desarrollador front-end como dependiente y desarrollador de juegos como freelance y autodidacta, desarrollando páginas web, navegadores y juegos móviles que consumen APIs.<br>A medida que desarrollaba mis propios juegos, aprendí diseño de UX/UI, diseño de sonido/música, pruebas manuales, diseño de juegos y planificación del tiempo por mi cuenta.",
+            "card-p3": "He trabajado como desarrollador front-end como dependiente y desarrollador móvil como freelance y autodidacta, desarrollando páginas web, y apps móviles que consumen APIs.<br>A medida que desarrollaba mis propios juegos, aprendí diseño de UX/UI, diseño de sonido/música, pruebas manuales, diseño de juegos y planificación del tiempo por mi cuenta.",
             "download-cv": "Descargar CV"
         },
         "skills": {
@@ -89,7 +89,7 @@
             "exp-txt2": "Curso online de inglés b1+ aprobado y validado por Eclass.",
             "exp1-txt": "Trabajo",
             "ind": "Independiente",
-            "job-txt": "Desarrollo de videojuegos web y mobile. Programando y diseñando soluciones requeridas por clientes de todo el mundo.",
+            "job-txt": "Desarrollo de aplicaciones móviles y videojuegos de forma personal y como freelancer, desarrollando aplicaciones desde cero de manera personal y por encargo del cliente. Trabajando desde la toma de requerimientos hasta el paso a producción.",
             "job2-txt": "Desarrollo de videojuegos web y webpages, colaborando con distintas áreas de la empresa para definir requerimientos, testing, diseñar soluciones y resolución de problemas. Ejerciendo los últimos 5 meses como líder técnico front-end."
 
         },

@@ -1,3 +1,4 @@
+
 function ChangeLanguage(e){
     const lang = e ? e.currentTarget.className.includes("active") ? "en" : "es" : "en";
     fetch('../Scripts/language.json')
