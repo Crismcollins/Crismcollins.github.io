@@ -1,12 +1,6 @@
 export type Language = 'en' | 'es';
 export type SkillType = 'hard' | 'soft';
 
-export type CustomFileResponse = {
-  id: string;
-  name: string;
-  url: string;
-}
-
 export type UserModel = {
   id?: number;
   full_name: string;
@@ -18,7 +12,7 @@ export type UserModel = {
   location: string;
   phone_number: string;
   about_me: string;
-  image: CustomFileResponse;
+  image: string;
   study_title: string;
   language: Language;
 }
@@ -42,7 +36,7 @@ export type EducationModel = {
   end_date: string;
   language: Language;
   location?: string;
-  logo: CustomFileResponse;
+  logo: string;
 }
 
 export type JobModel = {
@@ -60,7 +54,7 @@ export type JobModel = {
   skills?: SkillModel[];
   games?: GameModel[];
   achievements: string;
-  logo: CustomFileResponse;
+  logo: string;
 }
 
 export type ProfilePicture = {
@@ -81,8 +75,8 @@ export type GameModel = {
   video: string;
   ios_link?: string;
   android_link?:string;
-  image: CustomFileResponse;
-  background: CustomFileResponse;
+  image: string;
+  background: string;
   duration: string;
   language: Language;
   skills: SkillModel[];

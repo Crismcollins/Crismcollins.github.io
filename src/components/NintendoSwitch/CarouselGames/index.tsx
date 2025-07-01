@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react'
 import GameSlot from '../GameSlot';
 import useDataStore from '@/app/stores/data-store';
-import { GameModel } from '@/types/profile';
 import useScreens from '@/app/hooks/useScreens';
 import EaseOutButton from '@/components/EaseOutButton';
 
@@ -94,7 +93,7 @@ const CarouselGames = () => {
             <GameSlot
               key={game.id}
               name={game.name}
-              image={game.image.url}
+              image={game.image}
               // onPress={() => navigateToScreen('game', game)}
             />
           </EaseOutButton>

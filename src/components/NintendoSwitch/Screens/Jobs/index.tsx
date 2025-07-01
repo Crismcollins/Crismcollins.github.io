@@ -25,7 +25,7 @@ const Jobs = () => {
   const jobsToTimeline: TimelineItemProps[] = jobs?.map(job => ({
     title: job.title,
     institution: job.company,
-    image: job.logo?.url ?? '/images/independent_image.jpeg',
+    image: job.logo ?? '/images/independent_image.jpeg',
     start_date: job.start_date,
     end_date: job.end_date,
     selected: itemSelected === job.id,

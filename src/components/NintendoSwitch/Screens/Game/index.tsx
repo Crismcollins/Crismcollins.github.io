@@ -3,7 +3,7 @@ import useScreens from '@/app/hooks/useScreens';
 import BadgeGame from '@/components/BadgeGame';
 import Header from '@/components/Header';
 import { GameModel } from '@/types/profile';
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 
 const Game = () => {
   const { param, navigateToScreen, isVisible } = useScreens('game');
@@ -34,7 +34,7 @@ const Game = () => {
   const Background = () => (
     <img
       className='lg:w-1/2 xl:w-3/5'
-      src={game.background.url}
+      src={game.background}
     />
   )
 
@@ -48,7 +48,7 @@ const Game = () => {
         <div className='flex flex-col items-center gap-8 lg:w-6/12 px-2 lg:px-8 py-4 bg-background lg:overflow-y-auto'>
           <p className='text-2xl'>{game.name}</p>
           <img
-            src={game.image.url}
+            src={game.image}
             width={128}
             height={128}
           />

@@ -22,7 +22,7 @@ const Education = () => {
   const educationsToTimeline: TimelineItemProps[] = educations.map(education => ({
     title: education.title,
     institution: education.institution,
-    image: education.logo?.url ?? '/images/independent_image.jpeg',
+    image: education.logo ?? '/images/independent_image.jpeg',
     start_date: education.start_date,
     end_date: education.end_date,
     onPress: () => handlePressItem(education.id ?? 0)

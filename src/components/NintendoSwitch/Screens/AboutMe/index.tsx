@@ -64,7 +64,7 @@ const AboutMe = () => {
   const renderAboutMe = () => (
     <div className={`flex flex-col h-full w-full items-center justify-center gap-4 mt-8 sm:mt-0`}>
       <Avatar
-        imageClassName='h-24 w-24'
+        imageClassName='h-56 w-56'
         height={144}
         width={144}
       />

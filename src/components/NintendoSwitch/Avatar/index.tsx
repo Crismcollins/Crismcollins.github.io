@@ -37,12 +37,11 @@ const Avatar = ({
       className={`flex gap-4 items-center ${className}`}
       onClick={handlePress}
     >
-      {/* <Audio /> */}
       <img
         className={`rounded-full border-2 border-separator ${imageClassName ?? 'h-12 w-12' }`}
-        // height={height ?? 16}
-        // width={width ?? 48}
-        src={user?.image.url}
+        src={user?.image}
+        height={height}
+        width={width}
       />
       <p className={`text-lg capitalize ${nameClassName}`}>{name}</p>
     </EaseOutButton>
