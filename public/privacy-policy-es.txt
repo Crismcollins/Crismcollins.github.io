@@ -1,0 +1,64 @@
+Política de Privacidad — Snake & Blocks
+Desarrollador: Crismcollins
+Última actualización: Mayo 2025
+
+1. Introducción
+Esta Política de Privacidad describe cómo Snake & Blocks ("la App") maneja la información de sus usuarios. Al usar la App, aceptas las prácticas descritas en este documento.
+
+2. Información que recopilamos
+2.1 Datos de Google Play Games
+Cuando inicias sesión con Google Play Games, la App accede a la información básica de tu perfil de juego proporcionada por Google, como tu nombre de jugador e ID de cuenta. Estos datos no son enviados a ningún servidor propio ni compartidos con terceros fuera de los servicios de Google.
+2.2 Datos de progreso del juego
+El progreso, puntuaciones y configuración del juego se almacenan en Google Play Saved Games, un servicio de Google. Estos datos son gestionados directamente por Google según sus propias políticas de privacidad.
+2.3 Datos de análisis y rendimiento
+La App utiliza los siguientes servicios de Google Firebase:
+
+Firebase Analytics: Recopila datos de uso anónimos como sesiones, eventos dentro del juego y comportamiento general del usuario. Estos datos se usan para mejorar la experiencia de juego.
+Firebase Crashlytics: Recopila informes de errores y fallos técnicos para identificar y corregir problemas. Puede incluir información del dispositivo como modelo, versión del sistema operativo y registros de errores.
+
+2.4 Datos publicitarios
+La App muestra anuncios a través de redes publicitarias de terceros, incluyendo Google AdMob, Meta Audience Network, Unity Ads e ironSource. Estas redes pueden recopilar datos para personalizar anuncios según sus propias políticas de privacidad.
+
+3. Cómo usamos la información
+Usamos la información recopilada para:
+
+Permitir el inicio de sesión y sincronización del progreso del juego
+Guardar y restaurar tu progreso mediante Google Play Saved Games
+Analizar el uso de la App para mejorar su funcionamiento
+Identificar y corregir errores técnicos
+Mostrar anuncios relevantes
+
+
+4. Compartición de datos con terceros
+No vendemos ni compartimos tu información personal con terceros, salvo con los siguientes proveedores de servicios necesarios para el funcionamiento de la App:
+ServicioFinalidadPolítica de privacidadGoogle Play GamesInicio de sesión y guardadopolicies.google.comFirebase AnalyticsAnálisis de usofirebase.google.comFirebase CrashlyticsReporte de erroresfirebase.google.comGoogle AdMobPublicidadpolicies.google.comMeta Audience NetworkPublicidadfacebook.com/privacyUnity AdsPublicidadunity.com/legal/privacy-policyironSourcePublicidadis.com/privacy-app-users
+
+5. Publicidad
+La App muestra anuncios de terceros. Estas redes publicitarias pueden usar identificadores del dispositivo (como el ID de publicidad de Android) para mostrar anuncios personalizados.
+Puedes limitar la personalización de anuncios desde la configuración de tu dispositivo Android en Configuración → Google → Anuncios → Inhabilitar personalización de anuncios.
+
+6. Privacidad de menores
+La App es apta para todas las edades. No recopilamos intencionalmente información personal de niños menores de 13 años más allá de lo necesario para el funcionamiento del juego. Los servicios de terceros integrados en la App cuentan con sus propias políticas de cumplimiento para audiencias infantiles.
+
+7. Seguridad de los datos
+Los datos del juego se almacenan en los servidores seguros de Google a través de Google Play Saved Games. No almacenamos información personal en servidores propios.
+
+8. Tus derechos
+Tienes derecho a:
+
+Acceder a los datos almacenados en tu cuenta de Google Play Games
+Eliminar tu progreso eliminando los datos de la App desde la configuración de Google Play Games en tu dispositivo
+Revocar el acceso de la App a tu cuenta de Google Play Games desde la configuración de tu cuenta Google en Seguridad → Aplicaciones con acceso a tu cuenta
+
+
+9. Cambios a esta política
+Podemos actualizar esta Política de Privacidad ocasionalmente. Te notificaremos sobre cambios significativos mediante una actualización de la App. Te recomendamos revisar esta política periódicamente.
+
+10. Contacto
+Si tienes preguntas sobre esta Política de Privacidad, puedes contactarnos en:
+
+Website: crismcollins.github.io
+Email: classbitgames@gmail.com
+
+
+Esta política de privacidad aplica únicamente a la aplicación Snake & Blocks desarrollada por Crismcollins.

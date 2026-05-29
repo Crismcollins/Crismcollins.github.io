@@ -1,0 +1,64 @@
+Privacy Policy — Snake & Blocks
+Developer: Crismcollins
+Last updated: May 2025
+
+1. Introduction
+This Privacy Policy describes how Snake & Blocks ("the App") handles its users' information. By using the App, you agree to the practices described in this document.
+
+2. Information We Collect
+2.1 Google Play Games Data
+When you sign in with Google Play Games, the App accesses basic profile information provided by Google, such as your player name and account ID. This data is not sent to any of our own servers nor shared with third parties outside of Google's services.
+2.2 Game Progress Data
+Your game progress, scores, and settings are stored in Google Play Saved Games, a service provided by Google. This data is managed directly by Google in accordance with their own privacy policies.
+2.3 Analytics and Performance Data
+The App uses the following Google Firebase services:
+
+Firebase Analytics: Collects anonymous usage data such as sessions, in-game events, and general user behavior. This data is used to improve the gameplay experience.
+Firebase Crashlytics: Collects error and crash reports to identify and fix technical issues. This may include device information such as model, operating system version, and error logs.
+
+2.4 Advertising Data
+The App displays ads through third-party advertising networks, including Google AdMob, Meta Audience Network, Unity Ads, and ironSource. These networks may collect data to personalize ads in accordance with their own privacy policies.
+
+3. How We Use the Information
+We use the collected information to:
+
+Enable sign-in and game progress synchronization
+Save and restore your progress through Google Play Saved Games
+Analyze App usage to improve its performance
+Identify and fix technical errors
+Display relevant advertisements
+
+
+4. Sharing Data with Third Parties
+We do not sell or share your personal information with third parties, except with the following service providers required for the App to function:
+ServicePurposePrivacy PolicyGoogle Play GamesSign-in and saved gamespolicies.google.comFirebase AnalyticsUsage analyticsfirebase.google.comFirebase CrashlyticsError reportingfirebase.google.comGoogle AdMobAdvertisingpolicies.google.comMeta Audience NetworkAdvertisingfacebook.com/privacyUnity AdsAdvertisingunity.com/legal/privacy-policyironSourceAdvertisingis.com/privacy-app-users
+
+5. Advertising
+The App displays third-party ads. These advertising networks may use device identifiers (such as the Android Advertising ID) to show personalized ads.
+You can limit ad personalization from your Android device settings under Settings → Google → Ads → Opt out of Ads Personalization.
+
+6. Children's Privacy
+The App is suitable for all ages. We do not intentionally collect personal information from children under the age of 13 beyond what is necessary for the game to function. Third-party services integrated into the App have their own compliance policies for child audiences.
+
+7. Data Security
+Game data is stored on Google's secure servers through Google Play Saved Games. We do not store personal information on our own servers.
+
+8. Your Rights
+You have the right to:
+
+Access the data stored in your Google Play Games account
+Delete your progress by removing the App's data from Google Play Games settings on your device
+Revoke the App's access to your Google account from your Google account settings under Security → Apps with access to your account
+
+
+9. Changes to This Policy
+We may update this Privacy Policy from time to time. We will notify you of significant changes through an App update. We recommend reviewing this policy periodically.
+
+10. Contact
+If you have any questions about this Privacy Policy, you can reach us at:
+
+Website: crismcollins.github.io
+Email: classbitgames@gmail.com
+
+
+This privacy policy applies solely to the Snake & Blocks application developed by Crismcollins.
