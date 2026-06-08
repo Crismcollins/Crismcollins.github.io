@@ -1,4 +1,5 @@
 google.com, pub-5903429943431983, DIRECT, f08c47fec0942fa0
+facebook.com, 1618478802850024, RESELLER, c3e20eee3f780d68
 OWNERDOMAIN=https://crismcollins.github.io
 ironsrc.com, 640883, DIRECT
 blueseasx.com, 203625, RESELLER
