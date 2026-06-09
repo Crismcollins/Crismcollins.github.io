@@ -1,6 +1,6 @@
 google.com, pub-5903429943431983, DIRECT, f08c47fec0942fa0
 facebook.com, 1618478802850024, RESELLER, c3e20eee3f780d68
-OWNERDOMAIN=https://crismcollins.github.io
+OWNERDOMAIN=crismcollins.github.io
 ironsrc.com, 640883, DIRECT
 blueseasx.com, 203625, RESELLER
 rubiconproject.com, 26132, RESELLER, 0bfd66d529a55807
@@ -64,7 +64,7 @@ smartadserver.com, 4568, RESELLER, 060d053dcf45cbf3
 pubmatic.com, 161151, RESELLER, 5d62403b186f2ace
 openx.com, 561470659, RESELLER, 6a698e2ec38604c6
 ignitemediatech.com, pub_11115, RESELLER
-pubmatic.com, 162588, RESELLER, 5d62403
+pubmatic.com, 162588, RESELLER, 5d62403b186f2ace
 algorix.co, 54616, RESELLER, 5b394c12fea27a1d
 app-stock.com, 358747, RESELLER
 app-stock.com, 256917, RESELLER
