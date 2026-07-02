@@ -1,0 +1,81 @@
+Privacy Policy — Neotryx
+Last updated: July 2, 2026
+1. Introduction
+Neotryx ("the Game") is developed and operated by Crismcollins. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your data.
+By playing Neotryx, you agree to the practices described in this policy.
+
+2. Information We Collect
+Information from Google Play Games:
+
+Display name
+Profile avatar
+Google Play player ID
+
+Game progress data:
+
+Level reached
+
+Automatically collected data:
+
+Device type and operating system
+App usage and performance data (crashes, errors)
+Advertising identifier (GAID)
+Approximate location (country/region, derived from IP)
+
+
+3. How We Use Your Information
+We use the collected data to:
+
+Authenticate your identity via Google Play Games
+Display your profile and ranking on the leaderboard
+Save and sync your game progress
+Send push notifications about game updates and offers
+Show personalized and non-personalized ads
+Analyze app performance and fix crashes
+Process in-app purchases
+
+
+4. Third-Party Services
+Neotryx uses the following third-party services that may collect data independently. We recommend reviewing their privacy policies:
+ServicePurposePrivacy PolicyGoogle Play GamesAuthenticationhttps://policies.google.com/privacyFirebase AnalyticsUsage analyticshttps://firebase.google.com/support/privacyFirebase CrashlyticsCrash reportinghttps://firebase.google.com/support/privacyGoogle AdMobAdvertisinghttps://policies.google.com/privacyUnity AdsAdvertisinghttps://unity.com/legal/privacy-policyIronSource/LevelPlayAd mediationhttps://www.is.com/privacy-policyOneSignalPush notificationshttps://onesignal.com/privacy_policyUnity IAPIn-app purchaseshttps://unity.com/legal/privacy-policy
+
+5. Advertising
+Neotryx displays ads through LevelPlay mediation (AdMob, Unity Ads, IronSource). These providers may use your advertising identifier to show personalized ads.
+You can opt out of personalized ads at any time:
+
+Android: Settings → Google → Ads → Delete advertising ID
+
+
+6. Push Notifications
+We use OneSignal to send push notifications. You can disable notifications at any time from your device settings.
+
+7. In-App Purchases
+Neotryx offers a "Remove Ads" purchase processed through the Google Play Store. We do not store payment information — all transactions are handled by Google Play.
+
+8. Data Retention
+We retain your game data (name, avatar, level) as long as your account is active on our leaderboard. You can request deletion at any time by contacting us.
+
+9. Children's Privacy
+Neotryx is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us personal information, contact us and we will delete it promptly.
+
+10. Your Rights
+Depending on your region, you may have the right to:
+
+Access the personal data we hold about you
+Request correction or deletion of your data
+Opt out of personalized advertising
+Withdraw consent at any time
+
+To exercise these rights, contact us at the email below.
+
+11. Data Security
+We implement reasonable technical measures to protect your data. However, no method of transmission over the internet is 100% secure.
+
+12. Changes to This Policy
+We may update this policy occasionally. We will notify you of significant changes via the app or our store listing. Continued use of the app after changes constitutes acceptance.
+
+13. Contact
+If you have questions about this privacy policy or your data:
+
+Crismcollins
+Email: classbitgames@gmail.com
