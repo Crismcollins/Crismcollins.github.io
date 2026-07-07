@@ -1,0 +1,18 @@
+# Account and Data Deletion
+
+You can delete your account and all associated data from within the game.
+
+To delete your account:
+
+1. Open the game.
+2. Go to the Profile button.
+3. Select "Delete Account".
+4. Confirm the deletion.
+
+Once confirmed, all data associated with your account stored on our servers will be permanently deleted, including your game progress and profile information.
+
+Please note that this action cannot be undone.
+
+Your Google Play Games account will not be deleted, as it is managed by Google. Only the data stored by our game service will be removed.
+
+If you are unable to access the game and need assistance with account deletion, please contact our support team classbitgames@gmail.com
