@@ -6,6 +6,7 @@ import Profile from '../../../../public/icons/profile';
 import GitHub from '../../../../public/icons/github';
 import Linkedin from '../../../../public/icons/linkedin';
 import Download from '../../../../public/icons/download';
+import Spinner from '@/components/Spinner';
 import useScreens from '@/app/hooks/useScreens';
 import useDataStore from '@/app/stores/data-store';
 import useLanguage from '@/app/hooks/useLanguage';
@@ -19,11 +20,12 @@ const OptionsTab = () => {
   const { navigateToScreen } = useScreens();
   const { language, translator } = useLanguage();
 
-  const downloadCv = downloadCV(language);
+  const { mutateAsync: downloadCv, isPending } = downloadCV(language);
 
   const handleDownloadCV = async () => {
+    if (isPending) return;
     try {
-      const pdfData = await downloadCv.mutateAsync();
+      const pdfData = await downloadCv();
       if (pdfData?.cv) {
         const link = document.createElement('a');
         link.href = pdfData.cv;
@@ -78,8 +80,13 @@ const OptionsTab = () => {
       <OptionButton
         text={translator.cv}
         onPress={handleDownloadCV}
+        className={isPending ? 'opacity-60' : ''}
       >
-        <Download color='brightamber' size={24} />
+        {isPending ? (
+          <Spinner size="6" inline className="border-3" />
+        ) : (
+          <Download color='brightamber' size={24} />
+        )}
       </OptionButton>
     </div>
   )
