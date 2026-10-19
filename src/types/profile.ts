@@ -74,10 +74,15 @@ export type GameModel = {
   link: string;
   video: string;
   ios_link?: string;
-  android_link?:string;
+  android_link?: string;
   image: string;
   background: string;
   duration: string;
   language: Language;
   skills: SkillModel[];
+}
+
+export type PDFDownload = {
+  name: string;
+  cv: string;
 }

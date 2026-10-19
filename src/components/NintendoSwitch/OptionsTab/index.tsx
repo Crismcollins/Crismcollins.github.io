@@ -9,6 +9,7 @@ import Download from '../../../../public/icons/download';
 import useScreens from '@/app/hooks/useScreens';
 import useDataStore from '@/app/stores/data-store';
 import useLanguage from '@/app/hooks/useLanguage';
+import { downloadCV } from '@/services/data-service';
 
 const OptionsTab = () => {
 
@@ -16,7 +17,26 @@ const OptionsTab = () => {
   const user = useDataStore(state => state.user);
 
   const { navigateToScreen } = useScreens();
-  const { translator } = useLanguage();
+  const { language, translator } = useLanguage();
+
+  const downloadCv = downloadCV(language);
+
+  const handleDownloadCV = async () => {
+    try {
+      const pdfData = await downloadCv.mutateAsync();
+      if (pdfData?.cv) {
+        const link = document.createElement('a');
+        link.href = pdfData.cv;
+        link.download = pdfData.name || 'cv.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(pdfData.cv);
+      }
+    } catch (error) {
+      console.error('Error descargando CV', error);
+    }
+  };
 
   return (
     <div className='flex flex-row gap-2 sm:gap-4 flex-wrap sm:flex-nowwrap justify-center sm:mb-2'>
@@ -57,7 +77,7 @@ const OptionsTab = () => {
 
       <OptionButton
         text={translator.cv}
-        onPress={() => console.log("asd")}
+        onPress={handleDownloadCV}
       >
         <Download color='brightamber' size={24} />
       </OptionButton>
