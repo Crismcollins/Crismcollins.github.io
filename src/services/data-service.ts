@@ -42,7 +42,7 @@ export const downloadCV = (language: Language) => {
       const blob = await response.blob();
       const contentDisposition = response.headers.get('Content-Disposition');
 
-      let name = FILENAME_CV;
+      let name = `${FILENAME_CV}_${language.toUpperCase()}`;
       if (contentDisposition) {
         const match = contentDisposition.match(/filename[*]?=(?:UTF-8'')?["']?([^"';]+)["']?/i);
         if (match) name = decodeURIComponent(match[1]).replace(/["']/g, '');
