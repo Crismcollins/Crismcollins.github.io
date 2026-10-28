@@ -9,6 +9,12 @@ interface ApiResponse<T> {
 
 export const BASE_URL = process.env.NEXT_PUBLIC_API_URL!.replace(/\/+$/, "");
 
+if (!BASE_URL) {
+  throw new Error(
+    `VARIBLE NORMALIZADA ${BASE_URL} VARIABLE NO NORMALIZADA: ${process.env.NEXT_PUBLIC_API_URL}`
+  );
+}
+
 export const useGetQuery = <T>(
   url: string,
   key: string,
