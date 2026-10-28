@@ -4,7 +4,7 @@ import React from 'react';
 import Battery from '../../../../../../public/icons/Battery';
 import Clock from '@/components/NintendoSwitch/Clock';
 import useDataStore from '@/app/stores/data-store';
-import LanguageSwitch from '@/components/LanguageSwitch';
+// import LanguageSwitch from '@/components/LanguageSwitch';
 import useScreens from '@/app/hooks/useScreens';
 import AudioButton from '@/components/AudioButton';
 
@@ -19,7 +19,7 @@ const HeaderMenu = () => {
 
       <div className='flex flex-column h-full items-center gap-8'>
         <div className='hidden sm:block'><ThemeModeButton /></div>
-        <LanguageSwitch />
+        {/* <LanguageSwitch /> */}
       </div>
 
       <div className='flex justify-center sm:hidden'>

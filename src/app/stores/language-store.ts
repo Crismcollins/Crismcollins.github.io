@@ -10,7 +10,7 @@ type Actions = {
 }
 
 const useLanguageStore = create<State & Actions>((set) => ({
-  language: 'en',
+  language: 'es',
   setLanguage: (language: Language) => set(() => ({ language })),
 }))
 
