@@ -7,7 +7,7 @@ interface ApiResponse<T> {
   error: string;
 }
 
-const BASE_URL = process.env.NEXT_PUBLIC_API_URL;
+const BASE_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 export const useGetQuery = <T>(
   url: string,
