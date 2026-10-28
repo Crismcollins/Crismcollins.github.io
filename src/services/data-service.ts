@@ -1,5 +1,5 @@
 import { EducationModel, GameModel, JobModel, Language, SkillModel, UserModel } from "@/types/profile";
-import { useGetQuery } from "./fetchs";
+import { BASE_URL, useGetQuery } from "./fetchs";
 import { useMutation } from "@tanstack/react-query";
 import { FILENAME_CV } from "@/helpers/constants";
 
@@ -32,7 +32,7 @@ export const downloadCV = (language: Language) => {
   return useMutation<PDFDownload>({
     mutationKey: ['Download CV', language],
     mutationFn: async () => {
-      const finalUrl = process.env.NEXT_PUBLIC_BACKEND_URL + `/client/cv/pdf/${language}`;
+      const finalUrl = BASE_URL + `/client/cv/pdf/${language}`;
       const response = await fetch(finalUrl, {
         method: 'GET',
       });

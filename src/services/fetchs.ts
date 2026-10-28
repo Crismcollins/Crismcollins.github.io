@@ -7,13 +7,13 @@ interface ApiResponse<T> {
   error: string;
 }
 
-const BASE_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+export const BASE_URL = process.env.NEXT_PUBLIC_API_URL!.replace(/\/+$/, "");
 
-export const useGetQuery = <T> (
+export const useGetQuery = <T>(
   url: string,
   key: string,
   options: Omit<UseQueryOptions<ApiResponse<T>, Error>, 'queryKey' | 'queryFn'> = {}
-  ) => {
+) => {
   const finalUrl = BASE_URL + url;
 
   const response = useQuery<ApiResponse<T>>({
