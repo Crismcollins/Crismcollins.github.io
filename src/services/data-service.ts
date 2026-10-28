@@ -32,7 +32,7 @@ export const downloadCV = (language: Language) => {
   return useMutation<PDFDownload>({
     mutationKey: ['Download CV', language],
     mutationFn: async () => {
-      const finalUrl = process.env.NEXT_PUBLIC_API_URL + `/client/cv/pdf/${language}`;
+      const finalUrl = process.env.NEXT_PUBLIC_BACKEND_URL + `/client/cv/pdf/${language}`;
       const response = await fetch(finalUrl, {
         method: 'GET',
       });
