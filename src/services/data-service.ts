@@ -1,5 +1,5 @@
 import { EducationModel, GameModel, JobModel, Language, SkillModel, UserModel } from "@/types/profile";
-import { BASE_URL, useGetQuery } from "./fetchs";
+import { useGetQuery } from "./fetchs";
 import { useMutation } from "@tanstack/react-query";
 import { FILENAME_CV } from "@/helpers/constants";
 
