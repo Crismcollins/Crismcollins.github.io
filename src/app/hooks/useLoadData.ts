@@ -1,5 +1,4 @@
 import { getAllEducations, getAllGames, getAllJobs, getUser } from "@/services/data-service";
-import useLanguage from "./useLanguage";
 import { useEffect } from "react";
 import useDataStore from "../stores/data-store";
 
@@ -17,11 +16,10 @@ const useLoadData = () => {
   const setEducations = useDataStore(state => state.setEducations);
   const setLoading = useDataStore(state => state.setLoading);
 
-  const { language } = useLanguage();
-  const { data: user, isLoading: loadingUser, refetch: refetchUser, isRefetching: refetchingUser } = getUser(language);
-  const { data: games, isLoading: loadingGames, refetch: refetchGames, isRefetching: refetchingGames } = getAllGames(language);
-  const { data: jobs, isLoading: loadingJobs, refetch: refetchJobs, isRefetching: refetchingJobs } = getAllJobs(language);
-  const { data: educations, isLoading: loadingEducations, refetch: refetchEducations, isRefetching: refetchingEducations } = getAllEducations(language);
+  const { data: user, isLoading: loadingUser, refetch: refetchUser, isRefetching: refetchingUser } = getUser();
+  const { data: games, isLoading: loadingGames, refetch: refetchGames, isRefetching: refetchingGames } = getAllGames();
+  const { data: jobs, isLoading: loadingJobs, refetch: refetchJobs, isRefetching: refetchingJobs } = getAllJobs();
+  const { data: educations, isLoading: loadingEducations, refetch: refetchEducations, isRefetching: refetchingEducations } = getAllEducations();
   
   const saveDataToStores = () => {
     if (user)
@@ -62,7 +60,7 @@ const useLoadData = () => {
 
   useEffect(() => {
     handleRefresh();
-  }, [language])
+  }, [])
 
   return { loading }
 
